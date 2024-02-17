@@ -18,6 +18,10 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 3rem 10%;
+  position: sticky;
+  background: linear-gradient(#29251c, #2c2306);;
+  top: 0;  /*Stick to the top of the viewport */
+  /* z-index: 1000; Optional: Adjust the z-index if needed */
 }
 
 #main-header #title {
